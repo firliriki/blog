@@ -1,0 +1,75 @@
+
+/* Blog LIST */
+.post-list { position: relative; }
+.post-list .post-item { position: relative; border: 1px solid #2B3A67; }
+.post-list .post-item h4 { position: relative; color: #2B3A67; font-size: 25px; padding: 0; margin: 0;}
+.post-list .post-item .meta { position: relative; padding: 5px 5px 5px 0; margin: 15px 0; font-size: 14px; border-top: 1px solid #2B3A67; border-bottom: 1px solid #2B3A67; color: #8a8a8a; }
+.post-list .post-item .meta i { color: #2B3A67; margin: 0 5px; }
+.post-list .post-item p { font-size: 16px; margin: 15px 0; line-height: 1.5; text-align: justify; }
+.post-list .post-item .btn { border: 1px solid #2B3A67; color: #2B3A67; box-shadow: unset; }
+.post-list .post-item .btn:hover { border: 1px solid #2B3A67; background-color: #2B3A67; color: #fff; }
+
+/* Pagination */
+.blog-pagination { position: relative; }
+.blog-pagination .btn { background-color: #2B3A67; border: 1px solid #2B3A67; color: #fff; box-shadow: unset; }
+.blog-pagination .btn:hover { border: 1px solid #2B3A67; background-color: transparent; color: #2B3A67; }
+
+/* Single Page Blog */
+#page { position: relative; }
+#page h2 { position: relative; color: #2B3A67; font-size: 25px; padding: 0; margin: 0; }
+#page .meta { position: relative; padding: 5px 5px 5px 0; margin: 15px 0; font-size: 14px; border-top: 1px solid #2B3A67; border-bottom: 1px solid #2B3A67; color: #8a8a8a; }
+#page .meta i { color: #2B3A67; margin: 0 5px; }
+#page p { font-size: 16px; margin: 15px 0; line-height: 1.5; text-align: justify; }
+#page .page-content h1,#page .page-content h2,#page .page-content h3,#page .page-content h4,#page .page-content h5,#page .page-content h6 { color: #2B3A67; }
+
+/* COMMENT */
+#comment { position: relative; margin: 80px 0 0px 0; }
+#comment h3{ position: relative; padding-bottom: 15px; margin: 10px 0; border-bottom: 1px solid #2B3A67; font-size: 18px; font-weight:bold; color:#2B3A67; text-transform: uppercase; }
+#comment .comment-item { position: relative; margin: 10px 0; }
+#comment .comment-item h5 { position: relative;  color: #2B3A67; font-size: 16px; }
+#comment .comment-item .meta-comment { margin: 5px 0; color: #8a8a8a; font-size: 14px;  }
+
+#comment form label { color: #2B3A67; font-weight: 400; padding-bottom: 5px; }
+#comment .btn { display: block; margin: 0 auto; width: 50%; border: 1px solid #2B3A67; color: #2B3A67; box-shadow: unset; }
+#comment .btn:hover { border: 1px solid #2B3A67; background-color: #2B3A67; color: #fff; }
+
+/* COPY */
+.copy { position: relative; margin-top: 25px; padding: 10px 0; background-color: #2B3A67; color: #fff; text-align: center; }
+
+/* SIDEBAR */
+h2 { text-align: center; padding-top: 10px; padding-bottom: 20px;}
+
+
+/* SCROLLTEXT */
+.scroll-left {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+ background: rgb(0, 60, 255);
+ color: rgb(255, 255, 255);
+ border: 1px solid rgb(63, 243, 228);
+}
+.scroll-left p {
+ position: absolute;
+ font-family: 'Arial Narrow Bold', sans-serif;
+ font-style: bold;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+
